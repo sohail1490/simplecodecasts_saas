@@ -12,6 +12,8 @@ gem 'rails', '~> 5.0.2'
 gem 'sqlite3', group: [:development, :test]
 # Use bootstrap for styling
 gem 'bootstrap-sass', '~> 3.3.6'
+# Use font awsome for fonts
+gem 'font-awesome-sass', '~> 4.7.0'
 # use postgresql as the database for production
 group :production do
   gem 'pg'
